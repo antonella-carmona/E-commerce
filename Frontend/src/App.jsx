@@ -1,5 +1,7 @@
 import { Header } from './components/Header'
+import { ImageCarousel } from './components/ImageCarousel'
 import { MainArticle } from './components/MainArticle'
+
 
 
 
@@ -10,6 +12,7 @@ function App() {
     < main className='px-4 pt-6'>
      
       <Header/>
+      <ImageCarousel/>
       <MainArticle/>
       
     </main>
